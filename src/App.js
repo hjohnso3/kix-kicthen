@@ -9,21 +9,22 @@ function App() {
           <div id="page-background">
 			  <NavBar />
 			  <div className="section-intro">
-				<h1>Welcome to Kix Kitchen!</h1>
+				<h1>Kix Kitchen</h1>
 			  </div>
           </div>
           <div className="info-section">
-          	<p> Lorem ipsum dolor sit amet. Et culpa possimus qui debitis accusantium qui temporibus rerum et illo dolore qui labore error et quas consequatur
-          	 et quod aspernatur. Ex eligendi molestias rem repudiandae alias qui accusantium facere quo cumque quasi qui quisquam ipsa rem galisum quia!
-          	 Et nostrum vero non minus velit hic suscipit eveniet ut quis quia?
+          	<h1> Welcome to Kix Kitchen </h1>
+          	<p> Where culinary excellence meets the vibrant flavors of African cuisine. Our small chops and appetizers are crafted with passion and precision, offering a tantalizing journey for your taste buds.
 
-             Ea delectus obcaecati nam maiores similique in iusto nulla cum consequuntur repellendus et repellendus porro non corporis eius.
-             Vel quisquam distinctio et aliquid velit qui aliquid repudiandae. Ea illum animi est omnis iure ex nisi libero et galisum illum
-             33 aperiam rerum sed omnis temporibus nam quia nobis.
+                Indulge in a delightful array of small chops, each bite bursting with the rich and diverse tastes of Africa. From crispy samosas to succulent skewers, our menu is a celebration of authentic flavors and culinary traditions.
 
-             Eos commodi nemo a dolores vitae aut repellat numquam et obcaecati magnam id quis ullam ab nemo temporibus et eius obcaecati.
-             Ad autem minima non alias distinctio et odit quod et sunt voluptatem ut ipsa placeat. Ad veritatis recusandae vel dolore excepturi sed nisi delectus sit optio earum
-             sit enim fugit At deleniti dolor non ipsam itaque. In soluta ullam eum galisum reprehenderit 33 dicta voluptatum.
+                At Kix Kitchen, we take pride in sourcing the finest ingredients to ensure every dish is a masterpiece. Whether you're craving the bold spices of West African cuisine or the subtle elegance of East African flavors, our menu is a tribute to the continent's gastronomic diversity.
+
+                Immerse yourself in our welcoming ambiance, where the warmth of African hospitality meets modern sophistication. Our commitment to exceptional service ensures that every visit is a memorable experience.
+
+                Join us at and embark on a culinary adventure that captures the essence of African cuisine. From small gatherings to special occasions, our small chops and appetizers are the perfect complement to any celebration.
+
+                Indulge, savor, and discover the taste of Africa at Kix Kitchen!
              </p>
           </div>
         </div>
