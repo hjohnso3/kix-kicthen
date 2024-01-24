@@ -1,6 +1,18 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from './NavBar';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel} from 'react-responsive-carousel';
+import pancakes from './images/pancakes.jpg';
+import meats from './images/meat-food.jpg';
+import vegFruit from './images/veg-fruits.jpg';
+import breakfast from './images/breakfast.jpg';
+
+const backgroundImages = [
+   meats,
+   breakfast,
+   vegFruit,
+]
 
 function App() {
   return (
@@ -26,6 +38,17 @@ function App() {
 
                 Indulge, savor, and discover the taste of Africa at Kix Kitchen!
              </p>
+          </div>
+          <div className="box">
+			  <Carousel autoPlay infiniteLoop={true} autoPlaySpeed={4000} useKeyboardArrows={true}>
+				  {backgroundImages.map((image, index) => (
+				  <div id="background-image-one">
+					  <div className="slide">
+						 <img alt="background_images" src={image} key={index} />
+					  </div>
+				  </div>
+			  	  ))}
+			  </Carousel>
           </div>
         </div>
      </BrowserRouter>
