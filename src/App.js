@@ -50,6 +50,40 @@ function App() {
 			  	  ))}
 			  </Carousel>
           </div>
+          <div className="row-flex">
+			  <div className="flex-column-form">
+				  <h3> Make an Inquiry </h3>
+					<form>
+						<div class="form-group">
+							<input type="text" placeholder="Your Full Name" />
+						</div>
+						<div class="form-group">
+							<input type="email" placeholder="Your Email" />
+						</div>
+						<div class="form-group">
+					  		<textarea rows="5" cols="40" placeholder="Your Inquiry"/>
+						</div>
+					  <button type="submit" className="btn btn-primary"> Submit </button>
+					</form>
+			  </div>
+			  <div className="hours">
+			  	<h3>Hours of Operation</h3>
+				<p>
+					<span>Monday - Friday: 09:00 — 18:00</span>
+					<span>Friday - Saturday: 09:00 — 17:00 </span>
+					<span>Sunday: Closed </span>
+				</p>
+			  </div>
+			  <div className="contact-us">
+			  	<h3>Contact Us</h3>
+				<p>
+					<span>613-613-6134</span>
+					<span>#1 Canotech Road</span>
+					<span>Ottawa, Ontario</span>
+					<span>K1V9T4 CA</span>
+				</p>
+			  </div>
+		  </div>
         </div>
      </BrowserRouter>
   );

@@ -11,11 +11,6 @@
 	background-size: cover;
 	display: flex;
 	height: 100vh;
-    /* width: 820px;
-    box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.9);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
 }
 
 .nav-flex-row {
@@ -87,37 +82,39 @@
 	height: 500px;
 }
 
-.link-to-book-wrapper {
-    flex: 1;
-}
-
-.link-to-book {
-    color: #ffffff;
-    display: block;
-    border: 2px solid #ffffff;
-    padding: 5px 10px;
-}
-
-a.link-to-book:hover {
-    background-color: #ffffff;
-    color: #95999e;
-    text-decoration: none;
-}
-
 .row-flex {
     display: flex;
     flex-direction: row;
+    font-size: 1.2em;
+
 }
 
 .flex-column-form {
     display: flex;
     flex-direction: column;
     flex: 1;
-    margin: 30px 20px;
+    margin: 30px 190px;
+}
+
+.hours,
+.contact-us {
+    flex: 1;
+    align-items: center;
+    margin: 30px 100px;
+}
+
+.form-group {
+    font-size: 1.2em;
+    padding-bottom: 8px;
+}
+
+.hours p span,
+.contact-us p span {
+    display: block;
 }
 
 .btn.btn-primary {
-    font-family: 'Big Shoulders Text', cursive;
+    font-family: 'Georgia', cursive;
     color: #ffffff;
     background-color: #95999e;
     text-transform: uppercase;
@@ -129,21 +126,6 @@ a.link-to-book:hover {
 
 .btn.btn-primary:hover {
     background-color: #747474;
-}
-.opening-time,
-.contact-adress {
-    flex: 1;
-    margin: 30px 20px;
-    font-size: 1.2em;
-}
-
-.form-group p {
-    font-size: 1.2em;
-}
-
-.opening-time p span,
-.contact-adress p span {
-    display: block;
 }
 
 @media (min-width:577px) and (max-width: 800px) {
@@ -209,17 +191,4 @@ a.link-to-book:hover {
         text-align: center;
     }
 
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
