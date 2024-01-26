@@ -24,6 +24,21 @@
     padding: 0;
 }
 
+.center-page {
+    display: 'flex';
+    flexDirection: 'column';
+    justifyContent: 'space-around';
+    alignItems: 'center';
+    height: '100%';
+}
+
+#about-page-background {
+	background-image: url("images/chicken-wings-barbecue-sweetly.jpg");
+	background-size: cover;
+	display: flex;
+	padding-top: 100px;
+}
+
 .nav-flex-row li {
     text-decoration: none;
     list-style-type: none;
