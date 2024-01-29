@@ -1,7 +1,6 @@
 import NavBar from '../NavBar.js';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel} from 'react-responsive-carousel';
-import pancakes from '../images/pancakes.jpg';
 import meats from '../images/meat-food.jpg';
 import vegFruit from '../images/veg-fruits.jpg';
 import breakfast from '../images/breakfast.jpg';
@@ -50,13 +49,13 @@ const HomePage = () => (
 		  <div className="flex-column-form">
 			  <h3> Make an Inquiry </h3>
 				<form>
-					<div class="form-group">
+					<div className="form-group">
 						<input type="text" placeholder="Your Full Name" />
 					</div>
-					<div class="form-group">
+					<div className="form-group">
 						<input type="email" placeholder="Your Email" />
 					</div>
-					<div class="form-group">
+					<div className="form-group">
 						<textarea rows="5" cols="40" placeholder="Your Inquiry"/>
 					</div>
 				  <button type="submit" className="btn btn-primary"> Submit </button>

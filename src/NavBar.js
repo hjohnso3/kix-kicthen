@@ -6,7 +6,7 @@ const NavBar = () => {
 //    const { user } = useUser();
     const navigate = useNavigate();
     return (
-        <nav class="nav-flex-row">
+        <nav className="nav-flex-row">
             <ul>
                 <li>
                     <Link to="/">Home</Link>
