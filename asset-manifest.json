@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "kixkitchen.ca/static/css/main.d23c59fb.css",
-    "main.js": "kixkitchen.ca/static/js/main.48f59048.js",
-    "static/js/787.96cbe18c.chunk.js": "kixkitchen.ca/static/js/787.96cbe18c.chunk.js",
-    "static/media/meat-food.jpg": "kixkitchen.ca/static/media/meat-food.a6bd5ffe443288003a89.jpg",
-    "static/media/veg-fruits.jpg": "kixkitchen.ca/static/media/veg-fruits.2b3a0a494b30bf14f3b6.jpg",
-    "static/media/breakfast.jpg": "kixkitchen.ca/static/media/breakfast.a443d4deaa8193a86f61.jpg",
-    "static/media/chicken-wings-barbecue-sweetly.jpg": "kixkitchen.ca/static/media/chicken-wings-barbecue-sweetly.3a6fe4561bb55b2298e0.jpg",
-    "static/media/ice-cream.jpg": "kixkitchen.ca/static/media/ice-cream.d636cb029af764ac3196.jpg",
-    "static/media/pasta.jpg": "kixkitchen.ca/static/media/pasta.a0dc5a6ac5515ab415a8.jpg",
-    "static/media/pancakes.jpg": "kixkitchen.ca/static/media/pancakes.df9e7ca7d4534e7d2884.jpg",
-    "static/media/cake.jpg": "kixkitchen.ca/static/media/cake.362c832d9772c52c37bc.jpg",
-    "index.html": "kixkitchen.ca/index.html",
-    "main.d23c59fb.css.map": "kixkitchen.ca/static/css/main.d23c59fb.css.map",
-    "main.48f59048.js.map": "kixkitchen.ca/static/js/main.48f59048.js.map",
-    "787.96cbe18c.chunk.js.map": "kixkitchen.ca/static/js/787.96cbe18c.chunk.js.map"
+    "main.css": "/static/css/main.ffcf6c3d.css",
+    "main.js": "/static/js/main.9187e4b6.js",
+    "static/js/787.96cbe18c.chunk.js": "/static/js/787.96cbe18c.chunk.js",
+    "static/media/meat-food.jpg": "/static/media/meat-food.a6bd5ffe443288003a89.jpg",
+    "static/media/veg-fruits.jpg": "/static/media/veg-fruits.2b3a0a494b30bf14f3b6.jpg",
+    "static/media/breakfast.jpg": "/static/media/breakfast.a443d4deaa8193a86f61.jpg",
+    "static/media/chicken-wings-barbecue-sweetly.jpg": "/static/media/chicken-wings-barbecue-sweetly.3a6fe4561bb55b2298e0.jpg",
+    "static/media/ice-cream.jpg": "/static/media/ice-cream.d636cb029af764ac3196.jpg",
+    "static/media/pasta.jpg": "/static/media/pasta.a0dc5a6ac5515ab415a8.jpg",
+    "static/media/pancakes.jpg": "/static/media/pancakes.df9e7ca7d4534e7d2884.jpg",
+    "static/media/cake.jpg": "/static/media/cake.362c832d9772c52c37bc.jpg",
+    "index.html": "/index.html",
+    "main.ffcf6c3d.css.map": "/static/css/main.ffcf6c3d.css.map",
+    "main.9187e4b6.js.map": "/static/js/main.9187e4b6.js.map",
+    "787.96cbe18c.chunk.js.map": "/static/js/787.96cbe18c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d23c59fb.css",
-    "static/js/main.48f59048.js"
+    "static/css/main.ffcf6c3d.css",
+    "static/js/main.9187e4b6.js"
   ]
 }
