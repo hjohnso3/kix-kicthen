@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/kix-kitchen/static/css/main.5df408e0.css",
-    "main.js": "/kix-kitchen/static/js/main.40baf8cf.js",
-    "static/js/787.96cbe18c.chunk.js": "/kix-kitchen/static/js/787.96cbe18c.chunk.js",
-    "static/media/meat-food.jpg": "/kix-kitchen/static/media/meat-food.a6bd5ffe443288003a89.jpg",
-    "static/media/veg-fruits.jpg": "/kix-kitchen/static/media/veg-fruits.2b3a0a494b30bf14f3b6.jpg",
-    "static/media/breakfast.jpg": "/kix-kitchen/static/media/breakfast.a443d4deaa8193a86f61.jpg",
-    "static/media/chicken-wings-barbecue-sweetly.jpg": "/kix-kitchen/static/media/chicken-wings-barbecue-sweetly.3a6fe4561bb55b2298e0.jpg",
-    "static/media/ice-cream.jpg": "/kix-kitchen/static/media/ice-cream.d636cb029af764ac3196.jpg",
-    "static/media/pasta.jpg": "/kix-kitchen/static/media/pasta.a0dc5a6ac5515ab415a8.jpg",
-    "static/media/pancakes.jpg": "/kix-kitchen/static/media/pancakes.df9e7ca7d4534e7d2884.jpg",
-    "static/media/cake.jpg": "/kix-kitchen/static/media/cake.362c832d9772c52c37bc.jpg",
-    "index.html": "/kix-kitchen/index.html",
-    "main.5df408e0.css.map": "/kix-kitchen/static/css/main.5df408e0.css.map",
-    "main.40baf8cf.js.map": "/kix-kitchen/static/js/main.40baf8cf.js.map",
-    "787.96cbe18c.chunk.js.map": "/kix-kitchen/static/js/787.96cbe18c.chunk.js.map"
+    "main.css": "kixkitchen.ca/static/css/main.d23c59fb.css",
+    "main.js": "kixkitchen.ca/static/js/main.48f59048.js",
+    "static/js/787.96cbe18c.chunk.js": "kixkitchen.ca/static/js/787.96cbe18c.chunk.js",
+    "static/media/meat-food.jpg": "kixkitchen.ca/static/media/meat-food.a6bd5ffe443288003a89.jpg",
+    "static/media/veg-fruits.jpg": "kixkitchen.ca/static/media/veg-fruits.2b3a0a494b30bf14f3b6.jpg",
+    "static/media/breakfast.jpg": "kixkitchen.ca/static/media/breakfast.a443d4deaa8193a86f61.jpg",
+    "static/media/chicken-wings-barbecue-sweetly.jpg": "kixkitchen.ca/static/media/chicken-wings-barbecue-sweetly.3a6fe4561bb55b2298e0.jpg",
+    "static/media/ice-cream.jpg": "kixkitchen.ca/static/media/ice-cream.d636cb029af764ac3196.jpg",
+    "static/media/pasta.jpg": "kixkitchen.ca/static/media/pasta.a0dc5a6ac5515ab415a8.jpg",
+    "static/media/pancakes.jpg": "kixkitchen.ca/static/media/pancakes.df9e7ca7d4534e7d2884.jpg",
+    "static/media/cake.jpg": "kixkitchen.ca/static/media/cake.362c832d9772c52c37bc.jpg",
+    "index.html": "kixkitchen.ca/index.html",
+    "main.d23c59fb.css.map": "kixkitchen.ca/static/css/main.d23c59fb.css.map",
+    "main.48f59048.js.map": "kixkitchen.ca/static/js/main.48f59048.js.map",
+    "787.96cbe18c.chunk.js.map": "kixkitchen.ca/static/js/787.96cbe18c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5df408e0.css",
-    "static/js/main.40baf8cf.js"
+    "static/css/main.d23c59fb.css",
+    "static/js/main.48f59048.js"
   ]
 }
