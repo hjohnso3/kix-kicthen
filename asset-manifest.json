@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kix-kitchen/static/css/main.5df408e0.css",
-    "main.js": "/kix-kitchen/static/js/main.40baf8cf.js",
+    "main.js": "/kix-kitchen/static/js/main.74a1523e.js",
     "static/js/787.96cbe18c.chunk.js": "/kix-kitchen/static/js/787.96cbe18c.chunk.js",
     "static/media/meat-food.jpg": "/kix-kitchen/static/media/meat-food.a6bd5ffe443288003a89.jpg",
     "static/media/veg-fruits.jpg": "/kix-kitchen/static/media/veg-fruits.2b3a0a494b30bf14f3b6.jpg",
@@ -13,11 +13,11 @@
     "static/media/cake.jpg": "/kix-kitchen/static/media/cake.362c832d9772c52c37bc.jpg",
     "index.html": "/kix-kitchen/index.html",
     "main.5df408e0.css.map": "/kix-kitchen/static/css/main.5df408e0.css.map",
-    "main.40baf8cf.js.map": "/kix-kitchen/static/js/main.40baf8cf.js.map",
+    "main.74a1523e.js.map": "/kix-kitchen/static/js/main.74a1523e.js.map",
     "787.96cbe18c.chunk.js.map": "/kix-kitchen/static/js/787.96cbe18c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5df408e0.css",
-    "static/js/main.40baf8cf.js"
+    "static/js/main.74a1523e.js"
   ]
 }
