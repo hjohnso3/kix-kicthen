@@ -1,6 +1,5 @@
 import NavBar from '../NavBar.js';
 
-
 const AboutPage = () => (
     <>
     <div>

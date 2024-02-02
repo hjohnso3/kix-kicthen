@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Categories from '../components/Categories';
 import Menu from '../components/Menu';
 import { foodData } from '../components/foodData';
+import NavBar from '../NavBar.js';
+
 
 const allCategories = ['all',...new Set(foodData.map(item => item.category))];
 
@@ -19,12 +21,21 @@ const MenuPage = () => {
     }
 
   return (
-    <main>
-	  <section className="menu section">
-		<Categories categories={categories} filterItems={filterItems} />
-		<Menu items={menuItems} />
-	  </section>
-	</main>
+  <>
+  <div>
+	<NavBar />
+  </div>
+  <div id="menu-page-background">
+	  <div className="menu-background-section">
+		<main>
+			  <section className="menu section">
+				<Categories categories={categories} filterItems={filterItems} />
+				<Menu items={menuItems} />
+			  </section>
+			</main>
+	  </div>
+  </div>
+  </>
   );
 }
 
