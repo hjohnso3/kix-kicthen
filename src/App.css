@@ -26,9 +26,9 @@
 
 .center-page {
     display: 'flex';
-    flexDirection: 'column';
-    justifyContent: 'space-around';
-    alignItems: 'center';
+    flex-direction: 'column';
+    justify-content: 'space-around';
+    align-items: 'center';
     height: '100%';
 }
 
@@ -36,6 +36,12 @@
 	background-image: url("images/chicken-wings-barbecue-sweetly.jpg");
 	background-size: cover;
 	display: flex;
+	padding-top: 100px;
+}
+
+#menu-page-background {
+	background-image: url("images/chicken-wings-barbecue-sweetly.jpg");
+	background-size: cover;
 	padding-top: 100px;
 }
 
@@ -91,6 +97,14 @@
     font-size: 2.6em;
 }
 
+.menu-background-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ede5d8;
+    padding: 50px 30px;
+}
+
 #background-image-one {
 	background-size: cover;
 	display: flex;
@@ -101,13 +115,11 @@
     display: flex;
     flex-direction: row;
     font-size: 1.2em;
-
 }
 
 .flex-column-form {
     display: flex;
     flex-direction: column;
-    flex: 1;
     margin: 30px 190px;
 }
 
@@ -116,6 +128,38 @@
     flex: 1;
     align-items: center;
     margin: 30px 100px;
+}
+
+.notice {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.contact-us-display {
+    flex: 1;
+    align-items: center;
+    padding-top: 20px
+}
+
+.contact-us-display p span {
+    display: block;
+}
+
+#contact-us-image {
+    background-size: cover;
+    display: flex;
+    height: 700px;
+}
+
+.contact-us-form {
+    display: flex;
+	flex-direction: column;
+	flex: 1;
+	margin: 30px 190px;
 }
 
 .form-group {
@@ -148,26 +192,24 @@
 	margin: 0 auto;
 	max-width: 1170px;
 	display: grid;
+	grid-template-columns: 1fr 1fr;
 	gap: 3rem 2rem;
 	justify-items: center;
 }
 
-.menu {
-	padding: 5rem 0;
-}
 
 .menu-item {
 	display: grid;
-	gap: 1rem 2rem;
-	max-width: 25rem;
+	gap: 0rem 1.25rem;
+	grid-template-columns: 1.5fr 1fr;
 }
 
 .picture {
 	object-fit: cover;
 	height: 200px;
 	width: 100%;
-	border: 0.15rem solid var(--clr-gold);
-	border-radius: var(--radius);
+	border: 0.05rem solid;
+	border-color: gold;
 	display: block;
 }
 
@@ -181,21 +223,18 @@
 }
 
 .price {
-	color: var(--clr-gold);
+	color: brown;
 }
 
 .menu-item-description {
 	margin-bottom: 0;
 	padding-top: 1rem;
-}
-
-.title {
-	text-align: center;
-	margin-bottom: 2rem;
+	font-style: italic;
+	color: gray;
 }
 
 .btn-category {
-	margin-bottom: 4rem;
+	padding-bottom: 3rem;
 	display: flex;
 	justify-content: center;
 }
@@ -219,6 +258,30 @@
 	color: var(--clr-white);
 }
 
+
+/* @media screen and (min-width: 768px) {
+  .menu-item {
+    grid-template-columns: 225px 1fr;
+    gap: 0 1.25rem;
+    max-width: 40rem;
+  }
+  .photo {
+    height: 175px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-center {
+    width: 95vw;
+    grid-template-columns: 1fr 1fr;
+  }
+  .photo {
+    height: 150px;
+  }
+}
+*/
+
+
+/*
 @media (min-width:577px) and (max-width: 800px) {
 
     .section-intro {
@@ -282,4 +345,4 @@
         text-align: center;
     }
 
-}
+} */
