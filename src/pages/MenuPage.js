@@ -32,7 +32,7 @@ const MenuPage = () => {
 				<Categories categories={categories} filterItems={filterItems} />
 				<Menu items={menuItems} />
 			  </section>
-			</main>
+		</main>
 	  </div>
   </div>
   </>

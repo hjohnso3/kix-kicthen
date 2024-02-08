@@ -45,12 +45,17 @@ const HomePage = () => (
 			  ))}
 		  </Carousel>
 	  </div>
+	  <div className="notice">
+	  <p> We also cater for bulk orders and meal plans.
+		  Please contact us below for more information
+	  </p>
+	  </div>
 	  <div className="row-flex">
 		  <div className="flex-column-form">
 			  <h3> Make an Inquiry </h3>
 				<form>
 					<div className="form-group">
-						<input type="text" placeholder="Your Full Name" />
+						<input type="name" placeholder="Your Full Name" />
 					</div>
 					<div className="form-group">
 						<input type="email" placeholder="Your Email" />
