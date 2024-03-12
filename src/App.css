@@ -259,90 +259,51 @@
 }
 
 
-/* @media screen and (min-width: 768px) {
-  .menu-item {
-    grid-template-columns: 225px 1fr;
-    gap: 0 1.25rem;
-    max-width: 40rem;
+/* Add this at the end of your CSS */
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  #page-body {
+    padding-top: 32px; /* Adjust spacing */
   }
-  .photo {
-    height: 175px;
+
+  .nav-flex-row li {
+    padding: 10px 8px; /* Adjust padding for navigation items */
+  }
+
+  .section-intro h1 {
+    font-size: 3em; /* Decrease font size */
+  }
+
+  .info-section p {
+    width: 80%; /* Increase width for smaller screens */
+  }
+
+  .menu-section {
+    grid-template-columns: 1fr; /* Single column layout on smaller screens */
+    gap: 2rem 1rem; /* Adjust gap between items */
   }
 }
-@media screen and (min-width: 1200px) {
-  .section-center {
-    width: 95vw;
-    grid-template-columns: 1fr 1fr;
+
+/* Adjustments for even smaller screens */
+@media screen and (max-width: 480px) {
+  #page-body {
+    padding-top: 16px; /* Further reduce padding */
   }
-  .photo {
-    height: 150px;
+
+  .nav-flex-row li {
+    padding: 8px 6px; /* Further reduce padding for navigation items */
+  }
+
+  .section-intro h1 {
+    font-size: 2.5em; /* Further decrease font size */
+  }
+
+  .info-section p {
+    width: 90%; /* Increase width for smaller screens */
+  }
+
+  .menu-section {
+    gap: 1.5rem 1rem; /* Further adjust gap between items */
   }
 }
-*/
-
-
-/*
-@media (min-width:577px) and (max-width: 800px) {
-
-    .section-intro {
-        height: 500px;
-    }
-
-    .about-section p,
-    .about-section h3 {
-        font-size: 20px;
-    }
-
-    .carousel-inner {
-        height: auto;
-    }
-
-    .row-flex {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .section-intro {
-        height: 300px;
-    }
-
-    .about-section {
-        padding: 30px;
-    }
-
-    .section-intro h1 {
-        font-size: 2em;
-    }
-
-    .about-section p,
-    .about-section h3 {
-        font-size: 15px;
-    }
-
-    .carousel-inner {
-        height: auto;
-    }
-
-    .row-flex {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .row-flex h3 {
-        font-size: 25px;
-        text-align: center;
-    }
-
-    .form-group p {
-        font-size: 15px;
-    }
-
-    .opening-time p span,
-    .contact-adress p span {
-        font-size: 15px;
-        text-align: center;
-    }
-
-} */
